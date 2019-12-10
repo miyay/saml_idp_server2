@@ -57,3 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'ruby-saml-idp'
 gem 'ruby-saml'
 gem 'devise'
+
+gem 'rails_admin', '~> 2.0'
