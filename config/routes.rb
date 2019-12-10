@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   root to: redirect("/admin")
 
   devise_for :users
+
+  get '/saml/auth' => 'saml_idp#new'
+  post '/saml/auth' => 'saml_idp#create'
 end
